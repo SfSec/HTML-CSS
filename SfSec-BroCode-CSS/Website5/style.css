@@ -1,0 +1,18 @@
+body{
+    margin: 0px; /* now its next to the left side of the page */
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    /*margin: auto; This would override the ones under it*/
+}
+#box1{
+    background-color: hsl(0, 100%, 60%);
+    margin-right:auto;
+}
+#box2{
+    background-color: hsl(234, 82%, 38%);
+    margin-left: auto;
+}

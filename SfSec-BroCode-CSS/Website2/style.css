@@ -1,3 +1,15 @@
+@font-face{
+    src:url(fonts/Roboto-Light.ttf);
+    font-family: Roboto-Light;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@font-face{
+    src:url(fonts/HedvigLettersSans-Regular.ttf);
+    font-family: HedvigSans;
+}
 body{
     background-color: rgb(42, 42, 42);
 }
@@ -12,4 +24,20 @@ body{
 }
 #p4{
     color:hsl(283, 100%, 64%);
+}
+
+/* Font Style */
+h1{
+    font-family: verdana, arial;
+
+}
+p{
+
+
+    font-family: 'Roboto', 'Lucida Console', 'courier-new';
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+
+
 }

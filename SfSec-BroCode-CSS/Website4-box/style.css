@@ -1,3 +1,9 @@
 h1{
-    text-shadow: 3px 3px 5px;
+    text-shadow: 3px 3px 5px hsl(262, 100%, 61%), -3px, -3px, -5px hsl(175, 100%, 45%);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background: rgb(204, 197, 197);
+    box-shadow: 3px 3px 5px chartreuse;
 }

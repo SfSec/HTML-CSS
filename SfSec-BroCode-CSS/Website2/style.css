@@ -1,9 +1,9 @@
 @font-face{
     src:url(fonts/Roboto-Light.ttf);
     font-family: Roboto-Light;
-    font-size: 1em;
-    font-weight: normal;
-    font-style: normal;
+    font-size: 1em; /* unit of measurement for font-size */
+    font-weight: normal; 
+    font-style: normal; /* style e.g italic/bond */
     
 }
 @font-face{

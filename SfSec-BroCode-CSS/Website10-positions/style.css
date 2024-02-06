@@ -1,0 +1,18 @@
+#box1{
+    width: 200x;
+    height: 200px;
+    background-color: hsl(240, 41%, 51%);
+    position: sticky; /* if there is text beneath relative with top 100px it pushes this box div over the text covering it */
+    /* top: -100px;  negative values work here and do opposite action */
+    /* left: 100px; */
+    top: 0px;
+}
+#box2{
+    width: 100x;
+    height: 100px;
+    background-color: hsl(0, 100%, 50%);
+    position: sticky; /* if there is text beneath relative with top 100px it pushes this box div over the text covering it */
+    top: 50px;     /*  negative values work here and do opposite action */
+    left: 0px; 
+    /* if it is absolute, it will stay in its relative container and move with that */
+}

@@ -1,9 +1,24 @@
 h1{
     text-shadow: 3px 3px 5px hsl(262, 100%, 61%), -3px, -3px, -5px hsl(175, 100%, 45%);
 }
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+
 #box1{
     width: 100px;
     height: 100px;
     background: rgb(204, 197, 197);
     box-shadow: 3px 3px 5px chartreuse;
+    margin-right:auto;
+}
+#box2{
+    width: 250px;
+    height: 250px;
+    background: hsl(244, 40%, 29%);
+    box-shadow: 3px 3px 5px rgb(29, 31, 13);
+    margin-left:auto;
 }

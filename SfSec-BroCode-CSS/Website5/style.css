@@ -16,3 +16,8 @@ body{
     background-color: hsl(234, 82%, 38%);
     margin-left: auto;
 }
+
+#p1{
+    color: hsl(234, 82%, 38%)
+}
+

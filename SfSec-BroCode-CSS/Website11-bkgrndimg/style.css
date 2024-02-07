@@ -1,0 +1,7 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Sets whether an image scrolls with the rest of the page or is fixed */
+    background-size: cover; /* Takes up entire space of background */
+}

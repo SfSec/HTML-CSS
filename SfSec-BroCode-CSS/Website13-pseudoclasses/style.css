@@ -1,0 +1,39 @@
+/* button:hover{
+    font-size:1.1em;
+    background-color: greenyellow ;
+}
+button:active{
+    font-size: 1.1em;
+    background-color: hsl(9, 100%, 64%) ;
+}*/
+a:link{
+    color: hsl(195, 53%, 79%)
+}
+a:hover{
+    color:hsl(244, 81%, 26%);
+    font-size: 1.1em;
+}
+a:active{
+    color: hsl(240, 100%, 27%);
+    font-size: 1.1em;
+}
+a:visited{
+    color: hsl(244, 59%, 52%);
+}
+li:hover{
+    color: hsl(60, 100%, 50%);
+}
+li:not(:hover){
+    background-color: hsl(0, 0%, 50%);
+}
+li:nth-child(3n+2){
+    background-color:hsl(60, 100%, 50%);
+} 
+#greeting p{
+    background-color: hsl(180, 100%, 50%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

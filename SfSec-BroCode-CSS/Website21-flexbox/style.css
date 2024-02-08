@@ -1,0 +1,27 @@
+.container{
+    display: flex; /* by default flex property is set to row */
+    border: 10px solid black;
+    flex-direction: flex-start;
+    height: 90vh; /* viewport height units, percentage of the screen */
+    justify-content: space-evenly; /* By default its flex-start */
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(9, 100%, 64%);
+}
+#box2{
+    background-color: hsla(60, 100%, 50%, 0.582);
+}
+#box3{
+    background-color: hsla(120, 54%, 44%, 0.623);
+}
+#box4{
+    background-color: hsl(195, 53%, 79%);
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 0px
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+
+}
+.navbar ul{
+    list-style-type: none; /* remove the bullet pts */
+    background-color: hsla(0, 0%, 14%, 0.712);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; /* stop clipping the element its within */
+}
+.navbar a{
+    color: hsla(0, 0%, 98%, 0.884);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsla(0, 0%, 10%, 0.637);
+}
+.navbar li{
+    float: left;
+}

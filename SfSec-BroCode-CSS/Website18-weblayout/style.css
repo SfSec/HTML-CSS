@@ -1,0 +1,45 @@
+*{ 
+    box-sizing: border-box; /* When we calculate the width, factor in the padding with the border-box */
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: hsl(0, 0%, 68%);
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+.navbar{
+    background-color: hsla(0, 20%, 5%, 0.788);
+    height: 30px;
+    padding: 10px;
+}
+aside{
+    width: 20%;
+    float: left; /* the other elements can float tho with this */
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left; /* the other elements can float tho with this */
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left; /* the other elements can float tho with this */
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 68%);
+    text-align: center;
+    padding: 15px;
+}
+@media screen and (max-width:600px){ /* good for mobile device accessibility */
+    aside, section, article{
+        width:100%;
+    }
+}

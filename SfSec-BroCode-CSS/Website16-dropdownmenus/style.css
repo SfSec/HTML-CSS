@@ -1,0 +1,33 @@
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: hsla(0, 0%, 0%, 0.062);
+    color: hsla(202, 43%, 28%, 0.685);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    background-color: hsla(240, 8%, 70%, 0.767);
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.726); /* x, y, blur, color */
+}
+.dropdown:hover .content{ /* This makes it so when I hover over the button, the display appears */
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsla(180, 12%, 66%, 0.733);
+}
+.dropdown a:hover{
+    background-color: hsla(0, 0%, 100%, 0.719);
+}

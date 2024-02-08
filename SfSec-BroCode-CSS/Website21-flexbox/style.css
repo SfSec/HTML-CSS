@@ -4,6 +4,12 @@
     flex-direction: flex-start;
     height: 90vh; /* viewport height units, percentage of the screen */
     justify-content: space-evenly; /* By default its flex-start */
+    /* align-items: baseline;  places within the vh container */
+    /*flex-wrap: wrap; If not enough space, these elements will now wrap
+    align-content: flex-start;
+    column-gap: 2em;
+    row-gap: 3em; */
+
 }
 .box{
     width: 150px;
@@ -15,9 +21,11 @@
 
 #box1{
     background-color: hsl(9, 100%, 64%);
+    order: -1;
 }
 #box2{
     background-color: hsla(60, 100%, 50%, 0.582);
+    order: 1;
 }
 #box3{
     background-color: hsla(120, 54%, 44%, 0.623);

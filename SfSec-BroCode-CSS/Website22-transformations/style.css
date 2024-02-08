@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 13em;
+    text-align: center;
+    background-color: hsl(118, 100%, 59%);
+    transform: translateX(100%) rotate(90deg) scale(0.5);
+
+
+    /*
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px, 50px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scaleX(2, 0.5);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(20deg, 20deg);
+    */
+}
+#box1{
+    background: hsl(118, 100%, 59%);
+}
+#box2{
+    background: hsl(0, 100%, 59%);
+}
+#box3{
+    background: hsl(251, 100%, 59%);
+}

@@ -1,0 +1,7 @@
+@font-face{
+    src:url(fonts/HedvigLettersSans-Regular.ttf);
+    font-family: HedvigSans;
+}
+body{
+    background-color: hsla(146, 19%, 7%, 0.336);
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: hsla(0, 0%, 0%, 0.904);
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 100%, 50%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: animationname_slideLeft;
+    animation-duration: 2s;
+    animation-direction: alternnormalate;
+    animation-play-state: running; /* useful with js cause can be toggled on/off */
+    animation-timing-function: cubic-bezier(0.73, 0.43, 1, 1); /* default value ease-in-out, speeds up, then slows down before reaching its destination */
+}
+#box:hover{
+    animation-name: animationname_glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animationname_slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes animationname_slideRight{
+    to{transform: translateX(300%)}
+}
+@keyframes animationname_slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes animationname_slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes animationname_rotate{
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes animationname_grow{
+    40%{transform: scale(2,2)}
+}
+@keyframes animationname_shrink{
+    40%{transform: scale(0.5,0.5)}
+}
+@keyframes animationname_fade{
+    100%{opacity: 1}
+}
+@keyframes animationname_colorchange{
+    0%{background-color: hsl(0, 100%, 50%)}
+    20%{background-color: hsl(32, 67%, 51%)}
+    40%{background-color: hsl(69, 77%, 50%)}
+    60%{background-color: hsla(128, 86%, 38%, 0.781)}
+    80%{background-color: hsla(187, 100%, 50%, 0.842)}
+    100%{background-color:hsla(241, 100%, 50%, 0.842))}
+}
+@keyframes animationname_glow{
+    50%{box-shadow: 0px 0px 50px hsl(60, 100%, 50%);}
+}
